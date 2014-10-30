@@ -1,4 +1,5 @@
 RN42XVPTest
 ===========
 
-RN-42XVPとWindows Phone 8.1からRFCOMMで通信を行うサンプル
+これは、Windows Phone 8からBluetoothデバイスとRFCOMMで通信するサンプルプログラムです。
+
