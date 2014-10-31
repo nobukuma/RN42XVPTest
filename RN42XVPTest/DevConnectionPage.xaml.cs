@@ -107,7 +107,7 @@ namespace StrawhatNet.Study.RN42XVPTest
             this.streamSocket = new StreamSocket();
             try
             {
-                await streamSocket.ConnectAsync(selectedDevice.HostName, "1");
+                await streamSocket.ConnectAsync(selectedDevice.HostName, selectedDevice.ServiceName);
 
                 this.ConnectButton.IsEnabled = false;
                 this.bluetoothDeviceInfo.IsConnected = true;
